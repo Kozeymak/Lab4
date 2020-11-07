@@ -131,3 +131,33 @@ nav {
     color: #404040;
 }
 
+.about-me{
+    width: 1140px;
+    margin: 0 auto;
+    padding-top: 200px;
+}
+.about-me__table td{
+    width: 50%;
+}
+.about-me__h2{
+    font-weight: normal;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+    color: #404040;
+    border-left: #404040 1px solid ;
+    padding: 10px 0;
+}
+.about-me__img{
+    width: 400px;
+    margin-left: 75px;
+}
+.about-me__header{
+    height: 90px;
+    vertical-align: middle;
+}
+.about-me__text{
+    vertical-align: text-top;
+    padding: 75px 75px;
+}
+
