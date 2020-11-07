@@ -60,3 +60,25 @@ nav {
 .expand span{
     cursor: pointer;
 }
+
+.what-i-do {
+    width: 1140px;
+    margin: 110px auto;
+}
+
+.what-i-do td {
+    width: 50%;
+    vertical-align: middle;
+    padding: 0 100px;
+}
+
+.what-i-do td h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0;
+}
+
+.what-i-do__content {
+    border-left: #404040 1px solid;
+}
