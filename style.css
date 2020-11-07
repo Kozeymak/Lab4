@@ -225,3 +225,10 @@ input[type=submit]{
     color: #404040;
     margin-left: 175px;
 }
+.copyright{
+    font-weight: 600;
+    font-size: 14px;
+    color: #404040;
+    margin-left: 300px ;
+    margin-top: 100px;
+}
