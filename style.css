@@ -82,3 +82,52 @@ nav {
 .what-i-do__content {
     border-left: #404040 1px solid;
 }
+.switchers{
+    width: 1140px;
+    margin: 0 auto;
+    position: relative;
+}
+.square {
+    width: 35px;
+    height: 35px;
+    background-color: lightgrey;
+    cursor: pointer;
+}
+
+.switchers__table {
+    border-spacing: 0 60px;
+    width: 588px;
+    text-align: center;
+    font-size: 22px;
+    margin: 0;
+    position: absolute;
+    left: 552px;
+    top: 0;
+}
+
+.square_active {
+    background-color: grey;
+}
+
+.label_active {
+    font-weight: bolder;
+    color: #404040;
+}
+
+.switchers__img {
+    width: 552px;
+    display: inline-block;
+    padding: 75px 75px 0 75px;
+    box-sizing: border-box;
+}
+
+.switchers__img img {
+    box-sizing: border-box;
+    width: 400px;
+}
+.switchers__img h3{
+    margin-top: 70px;
+    text-align: center;
+    color: #404040;
+}
+
