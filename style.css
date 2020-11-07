@@ -160,4 +160,68 @@ nav {
     vertical-align: text-top;
     padding: 75px 75px;
 }
-
+.contact{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.contact__content{
+    display: inline-block;
+    width: 50%; 
+}
+.contact__header{
+    font-size: 50px;
+    padding: 10px 0;
+    margin: 0;
+    border-right: #404040 1px solid;
+    text-align: center;
+    color: #404040;
+    font-weight: normal;
+    margin-bottom: 100px;
+}
+.contact__content h4{
+    margin: 0;
+    margin-bottom: 5px;
+    color: #404040;
+}
+.phone, .email{
+    display: inline-block;
+}
+.phone{
+    margin-right: 75px;
+}
+.address{
+    margin-bottom: 25px;
+}
+.contact__form{
+    width: 45%;
+    display: inline-block;
+    padding: 0 56px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #404040;
+}
+*{
+    box-sizing: border-box;
+}
+.contact__form input[type=text], textarea{
+    appearance: none;
+    width: 100%;
+    border: 0;
+    background-color: #eee;
+    resize: none;
+    height: 25px;
+    margin: 10px 0;
+}
+textarea{
+    height: 130px;
+}
+input[type=submit]{
+    appearance: none;
+    border: 0;
+    background: none;
+    font-weight: 600;
+    font-size: 14px;
+    color: #404040;
+    margin-left: 175px;
+}
