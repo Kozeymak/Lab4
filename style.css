@@ -1,0 +1,25 @@
+body {
+    font-family: sans-serif;
+    color: #707070;
+}
+
+nav input:checked+label {
+    font-weight: bolder;
+    color: #404040;
+}
+
+nav input {
+    display: none;
+}
+
+nav label {
+    cursor: pointer;
+    font-weight: normal;
+    margin-right: 35px;
+}
+
+nav {
+    margin: 130px 0 60px 50%;
+    font-size: 18px;
+
+}
