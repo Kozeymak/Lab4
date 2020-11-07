@@ -23,3 +23,40 @@ nav {
     font-size: 18px;
 
 }
+
+.images {
+    width: 1140px;
+    margin: 0 auto;
+}
+.images_big{
+    height: 408px;
+    margin-bottom: -5px;
+}
+.images_small {
+    height: 285px; /*1140/4 */
+}
+
+.images_big img {
+    width: 50%;
+    height: 100%
+}
+
+.images_small img {
+    width: 25%;
+    height: 100%;
+}
+
+.images img:not(.img_last) {
+    margin-right: -5px;
+}
+
+.expand {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+    font-weight: 600;
+}
+
+.expand span{
+    cursor: pointer;
+}
