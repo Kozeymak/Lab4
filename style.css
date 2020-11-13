@@ -3,19 +3,16 @@ body {
     color: #707070;
 }
 
-nav input:checked+label {
-    font-weight: bolder;
-    color: #404040;
+.nav__item:not(:last-child) {
+    margin-right: 25px;
 }
-
-nav input {
-    display: none;
+.nav__item:hover{
+    color: black;
+    font-weight: bold;
 }
-
-nav label {
+.nav__item{
     cursor: pointer;
-    font-weight: normal;
-    margin-right: 35px;
+    user-select: none;
 }
 
 nav {
@@ -72,15 +69,25 @@ nav {
     padding: 0 100px;
 }
 
-.what-i-do td h2 {
+.what-i-do h2 {
+    display: inline-block;
     font-size: 50px;
     text-align: center;
     font-weight: normal;
     margin: 0;
+    width: 45%;
+    margin-top: 20px;
 }
 
 .what-i-do__content {
     border-left: #404040 1px solid;
+    float: right;
+    width: 50%;
+    padding-left: 120px;
+    line-height: 1.5;
+}
+.switchers__img div, .about-me__text{
+    line-height: 1.5;
 }
 .switchers{
     width: 1140px;
@@ -93,6 +100,13 @@ nav {
     background-color: lightgrey;
     cursor: pointer;
 }
+.switchers__table tr:hover .square{
+    background-color: darkgray;
+}
+.switchers__table tr:hover .label{
+    color: black;
+    font-weight: bold;
+}
 
 .switchers__table {
     border-spacing: 0 60px;
@@ -103,6 +117,7 @@ nav {
     position: absolute;
     left: 552px;
     top: 0;
+    cursor: pointer;
 }
 
 .square_active {
@@ -160,6 +175,7 @@ nav {
     vertical-align: text-top;
     padding: 75px 75px;
 }
+
 .contact{
     width: 1140px;
     margin: 0 auto;
@@ -212,6 +228,9 @@ nav {
     resize: none;
     height: 25px;
     margin: 10px 0;
+}
+.contact__content>*:not(h2){
+    padding-left: 75px;
 }
 textarea{
     height: 130px;
