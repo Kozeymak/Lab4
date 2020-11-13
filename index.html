@@ -2,22 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Лабораторная работа</title>
 </head>
 <body>
     <nav>
-        <input type="radio" id="home" name="navigation">
-        <label for="home">Home</label>
-        <input type="radio" id="my-works" name="navigation" checked>
-        <label for="my-works">My works</label>
-        <input type="radio" id="what-i-do" name="navigation" >
-        <label for="what-i-do">What I do</label>
-        <input type="radio" id="about-me" name="navigation">
-        <label for="about-me">About me</label>
-        <input type="radio" id="contact" name="navigation">
-        <label for="contact">Contact</label>
+        <span class="nav__item">Home</span>
+        <span class="nav__item">My works</span>
+        <span class="nav__item">What i do</span>
+        <span class="nav__item">About me</span>
+        <span class="nav__item">Contact</span>
     </nav>
     <div class="images">
         <div class="images_big">
@@ -32,13 +26,11 @@
         </div>
         <div class="expand"><span>Expand</span></div>
     </div>
-    <table class="what-i-do">
-        <tr>
-            <td><h2>What I do</h2></td>
-            <td class="what-i-do__content"><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum dolore doloremque enim eum eveniet fugiat fugit impedit iure laborum nobis porro quod reiciendis repellendus repudiandae, sint totam ut vitae?</div>
-            </td>
-        </tr>
-    </table>
+    <div class="what-i-do">
+        <h2>What I do</h2></td>
+        <div class="what-i-do__content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cum dolore doloremque enim eum eveniet fugiatfugit impedit iure laborum nobis porro quod reiciendis repellendus repudiandae, sint totam ut vitae?</div>
+    </div>  
+
     <div class="switchers">
         <div class="switchers__img">
             <img src="images/7.png" alt="">
@@ -48,19 +40,19 @@
         <table class="switchers__table">
             <tr>
                 <td class="square"></td>
-                <td>Key visual</td>
-            </tr>
-            <tr>
-                <td class="square square_active"></td>
-                <td class="label_active">UX/UI</td>
+                <td class="label">Key visual</td>
             </tr>
             <tr>
                 <td class="square"></td>
-                <td>Brand</td>
+                <td class="label">UX/UI</td>
             </tr>
             <tr>
                 <td class="square"></td>
-                <td>Package design</td>
+                <td class="label">Brand</td>
+            </tr>
+            <tr>
+                <td class="square"></td>
+                <td class="label">Package design</td>
             </tr>
         </table>
     </div>
@@ -73,6 +65,7 @@
             <tr>
                 <td class="about-me__text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit libero alias, aperiam unde dicta asperiores similique aspernatur accusamus at impedit ipsum error iusto iure, doloribus facere eaque vitae corrupti cum.</td>
             </tr>
+
         </table>
     </div>
     <div class="contact">
@@ -106,6 +99,5 @@
     <div class="copyright">
         Copyright 2020 © by Danila Gusev
     </div>
-
 </body>
 </html>
